@@ -1,9 +1,20 @@
-.vscode
-
+# Ignore build artifacts and executables
 *.out
-*.dSYM
+*.dSYM/
+*.exe
+*.o
+*.obj
 
-/*
-!*/        # Do not ignore directories
-!*.c       # Do not ignore C source files
-!*.h       # Do not ignore header files
+# Ignore specific executables by name (add as needed)
+/build
+
+hello
+first
+basic_functions
+
+# Ignore VSCode settings
+.vscode/
+
+# Do NOT ignore source or header files
+!*.c
+!*.h
