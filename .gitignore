@@ -1,2 +1,9 @@
+.vscode
+
 *.out
 *.dSYM
+
+/*
+!*/        # Do not ignore directories
+!*.c       # Do not ignore C source files
+!*.h       # Do not ignore header files
